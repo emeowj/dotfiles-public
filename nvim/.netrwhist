@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/xiaomingjia/Projects/Notes/docs'
+let g:netrw_dirhist_2='/Users/xiaomingjia/Projects/Notes/docs/projects'
+let g:netrw_dirhist_1='/Users/xiaomingjia/Projects/Notes/docs'
+let g:netrw_dirhist_0='/Users/xiaomingjia/Projects/Notes'
+let g:netrw_dirhist_9='/Users/xiaomingjia/Projects/Notes/docs'
+let g:netrw_dirhist_8='/Users/xiaomingjia/Projects/Notes'
+let g:netrw_dirhist_7='/Users/xiaomingjia'
+let g:netrw_dirhist_6='/Users/xiaomingjia/.iterm2'
+let g:netrw_dirhist_5='/Users/xiaomingjia'
+let g:netrw_dirhist_4='/Users/xiaomingjia/.iterm2'
