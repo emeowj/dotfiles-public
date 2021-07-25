@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 alias vim nvim
+
+set -gx EDITOR nvim
