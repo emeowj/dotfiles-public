@@ -14,7 +14,6 @@ Plug 'junegunn/vim-emoji'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'scalameta/nvim-metals', {'branch': 'next'}
 call plug#end()
 
 filetype plugin indent on
@@ -191,12 +190,4 @@ require('telescope').setup{
   }
 }
 EOF
-
-" nvim-metals
-augroup lsp
-  au!
-  " metals_config.init_options.statusBarProvider = 'on'
-  " metals_config = require'metals'.bare_config
-  au FileType scala,sbt lua  require('metals').initialize_or_attach({metals_config})
-augroup end
 
