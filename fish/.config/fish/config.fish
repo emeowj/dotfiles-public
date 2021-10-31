@@ -5,3 +5,4 @@ end
 alias vim nvim
 
 set -gx EDITOR nvim
+fish_add_path /opt/homebrew/bin
